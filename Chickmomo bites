@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chickmomo Bites</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#fffaf3;
+      color:#222;
+    }
+
+    header{
+      background:#ff2a2a;
+      padding:15px 25px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      position:sticky;
+      top:0;
+      z-index:100;
+    }
+
+    header .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    header img{
+      width:55px;
+      height:55px;
+      border-radius:12px;
+      object-fit:cover;
+      background:white;
+      padding:4px;
+    }
+
+    header h1{
+      margin:0;
+      font-size:20px;
+      color:white;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:15px;
+      font-weight:bold;
+      font-size:14px;
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    .hero{
+      padding:60px 20px;
+      text-align:center;
+      background:linear-gradient(to bottom, #ff2a2a, #fffaf3);
+      color:white;
+    }
+
+    .hero h2{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:16px;
+      max-width:700px;
+      margin:auto;
+      color:#ffe9e9;
+    }
+
+    section{
+      padding:55px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    section h3{
+      font-size:28px;
+      margin-bottom:10px;
+      color:#ff2a2a;
+    }
+
+    section p{
+      color:#333;
+      line-height:1.6;
+    }
+
+    .values{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap:18px;
+      margin-top:20px;
+    }
+
+    .value-card{
+      background:white;
+      padding:20px;
+      border-radius:18px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .menu-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap:20px;
+      margin-top:25px;
+    }
+
+    .menu-item{
+      background:white;
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .menu-item img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+
+    .menu-info{
+      padding:15px;
+    }
+
+    .menu-info h4{
+      margin:0;
+      font-size:18px;
+      color:#222;
+    }
+
+    .menu-info p{
+      margin:8px 0;
+      color:#555;
+      font-size:14px;
+    }
+
+    .price{
+      font-weight:bold;
+      color:#ff2a2a;
+      font-size:16px;
+    }
+
+    .contact-box{
+      background:white;
+      padding:25px;
+      border-radius:18px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.08);
+      margin-top:20px;
+    }
+
+    footer{
+      background:#ff2a2a;
+      color:white;
+      text-align:center;
+      padding:18px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="brand">
+      <!-- LOGO -->
+      <img src="10709.jpg" alt="Chickmomo Bites Logo">
+      <h1>Chickmomo Bites</h1>
+    </div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#values">Core Values</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h2>Delicious Chicken + Momos 💛</h2>
+    <p>
+      Welcome to <b>Chickmomo Bites</b> — your go-to comfort food spot for crispy chicken meals
+      and tasty momos served fresh and affordable.
+    </p>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h3>Brand Identity</h3>
+    <p>
+      <b>Chickmomo Bites</b> is a food brand focused on satisfying meals that are flavorful,
+      affordable, and made with love. Our specialties are crispy chicken meals and juicy momos
+      that are perfect for students, workers, and families.
+    </p>
+  </section>
+
+  <!-- CORE VALUES -->
+  <section id="values">
+    <h3>Core Values</h3>
+    <div class="values">
+      <div class="value-card">
+        <h4>Mission</h4>
+        <p>To serve delicious chicken meals and momos that are affordable, fresh, and satisfying.</p>
+      </div>
+
+      <div class="value-card">
+        <h4>Vision</h4>
+        <p>To become one of the most loved comfort food brands in the community in the next 5–10 years.</p>
+      </div>
+
+      <div class="value-card">
+        <h4>Goals</h4>
+        <p>
+          ✔ Expand menu options <br>
+          ✔ Improve food packaging <br>
+          ✔ Grow online orders and delivery <br>
+          ✔ Build loyal customers
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <h3>Products & Services</h3>
+    <p>
+      Here are some of our best sellers! Prices are transparent and affordable.
+    </p>
+
+    <div class="menu-grid">
+
+      <div class="menu-item">
+        <img src="10710.jpg" alt="Fried Chicken Meal">
+        <div class="menu-info">
+          <h4>Crispy Chicken Meal</h4>
+          <p>1 pc fried chicken + rice + gravy</p>
+          <div class="price">₱79.00</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="10708.jpg" alt="Chicken + Momo Meal">
+        <div class="menu-info">
+          <h4>Chicken & Momo Combo</h4>
+          <p>Chicken leg + rice + 5 momos</p>
+          <div class="price">₱99.00</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="10707.jpg" alt="Momos with Rice">
+        <div class="menu-info">
+          <h4>Momos with Rice</h4>
+          <p>4 pcs momos served with rice</p>
+          <div class="price">₱59.00</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h3>Accessibility / Contact Information</h3>
+
+    <div class="contact-box">
+      <p><b>Email:</b> chickmomobites@gmail.com</p>
+      <p><b>Facebook:</b> facebook.com/chickmomobites</p>
+      <p><b>Instagram:</b> @chickmomobites</p>
+      <p><b>Location:</b> (Put your location here)</p>
+
+      <hr>
+
+      <p><b>Order Now:</b> Message us on Facebook or Instagram for fast orders and updates.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Chickmomo Bites | All Rights Reserved
+  </footer>
+
+</body>
+</html>
